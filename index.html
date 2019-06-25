@@ -1,7 +1,36 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+<title>Max Fojtik</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script> 
+</head>
+<body onscroll="scrollListener()">
+	<div class="header_background">
+		<a onclick="url_update(this);" value="https://www.arduino.cc/" href="javascript:void(0);"><img class="header_img" src="Top/Ardunio.png" style="width: 20%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.java.com/en/" href="javascript:void(0);"><img class="header_img" src="Top/Java.png" style="width: 17%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.raspberrypi.org/" href="javascript:void(0);"><img class="header_img" src="Top/Raspberry.png" style="width: 8%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.osu.edu/" href="javascript:void(0);"><img class="header_img" src="Top/OhioState.png" style="width: 10%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.firstinspires.org/robotics/frc" href="javascript:void(0);"><img class="header_img" src="Top/First.png" style="width: 41%;"><img></a>
+	</div>
+	<div class="navwrapper" id="navwrapper">
+	<div id="main_nav_top"></div>
+	<div class="topnav">
+		<a class="active" href="index.html">Home</a>
+		<a href="contact.html">Contact</a>
+		<a href="references.html">References</a>
+		<a href="projects.html">Projects</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main_nav_bottom"></div>
+	</div>
+	<div class="article">
+		<h2>Welcome</h2>
+		<p>I graduated from Northview high school in 2018, where I was involved in NASA SL.
+		Today I'm interested in programming, wiring, and comptuers. My favorite food is s'mores.
+		</p>
+		<img src="NASASL.jpg" style="width: 50%;" style="text-align: center;"><img>
+		<p>You can click on the other tabs for more information</p>
+		<!--<img src="NewBanner.png" style="width:100%"><img>-->
+	</div>
 </body>
 </html>
