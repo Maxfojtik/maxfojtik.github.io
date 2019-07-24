@@ -1,0 +1,70 @@
+
+#main_nav_top {
+	background-color: #00838F;
+	height: 0.5rem;
+}
+#main_nav_bottom {
+	background-color: #00838F;
+	height: 0.5rem;
+}
+.article {
+	padding-right: 25%;
+	padding-left: 25%;
+}
+.navwrapperFixed{
+	position: fixed;
+	top: 0px;
+	background-color: #006064;
+	width: 100%;
+	text-align: center;
+}
+.navwrapper {
+	position: relative;
+	background-color: #006064;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+	/*z-index: 100;
+	position: relative;
+	float: none;
+	clear: both;*/
+}
+.topnav {
+	display: inline-block;
+	overflow: hidden;
+}
+.header_background {
+	width:100%;
+	text-align: center;
+	
+}
+.header_img {
+	vertical-align: middle;
+	padding: 2px;
+	padding-top: 4px;
+}
+body {
+	margin: 0px;
+}
+.body {
+	margin: 8px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  padding: 12px 40px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #00838F;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00ACC1;
+}

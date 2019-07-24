@@ -1,36 +1,36 @@
-<html>
-<head>
-<title>Max Fojtik</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="main.js"></script> 
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Max Fojtik</title>
 </head>
-<body onscroll="scrollListener()">
-	<div class="header_background">
-		<a onclick="url_update(this);" value="https://www.arduino.cc/" href="javascript:void(0);"><img class="header_img" src="Top/Ardunio.png" style="width: 20%;"><img></a>
-		<a onclick="url_update(this);" value="https://www.java.com/en/" href="javascript:void(0);"><img class="header_img" src="Top/Java.png" style="width: 17%;"><img></a>
-		<a onclick="url_update(this);" value="https://www.raspberrypi.org/" href="javascript:void(0);"><img class="header_img" src="Top/Raspberry.png" style="width: 8%;"><img></a>
-		<a onclick="url_update(this);" value="https://www.osu.edu/" href="javascript:void(0);"><img class="header_img" src="Top/OhioState.png" style="width: 10%;"><img></a>
-		<a onclick="url_update(this);" value="https://www.firstinspires.org/robotics/frc" href="javascript:void(0);"><img class="header_img" src="Top/First.png" style="width: 41%;"><img></a>
+<body>
+	<div class="site_wrapper">
+		<header class="main_header">
+			<div class="top_nav">
+				<div class="logo">
+					<a href="http://www.maxfojtik.com">
+						<img class="logo" src="Logo.png"></img>
+					</a>
+				</div>
+			</div>
+			<div id="header_background_video">
+			</div>
+		</header>
+		<div class="content">
+			<a href="about.html" class="about">I write programs, build robots and have fun doing it.</a>
+			<p>I attend The Ohio State University with a major in Computer Science</p>
+			<p><a href="projects.html">Projects</a></p>
+			<p><a href="references.html">References</a></p>
+			<p><a href="contact.html">Contact me</a></p>
+		</div>
 	</div>
-	<div class="navwrapper" id="navwrapper">
-	<div id="main_nav_top"></div>
-	<div class="topnav">
-		<a class="active" href="index.html">Home</a>
-		<a href="contact.html">Contact</a>
-		<a href="references.html">References</a>
-		<a href="projects.html">Projects</a>
-		<a href="about.html">About</a>
+	<div id="backgroundvideo">
+		<video loop autoplay muted playsinline="" class="bgvideo">
+			<source src="Trailer.mp4" type="video/mp4">
+		</video>
 	</div>
-	<div id="main_nav_bottom"></div>
-	</div>
-	<div class="article">
-		<h2>Welcome</h2>
-		<p>I graduated from Northview high school in 2018, where I was involved in NASA SL.
-		Today I'm interested in programming, wiring, and comptuers. My favorite food is s'mores.
-		</p>
-		<img src="NASASL.jpg" style="width: 50%;" style="text-align: center;"><img>
-		<p>You can click on the other tabs for more information</p>
-		<!--<img src="NewBanner.png" style="width:100%"><img>-->
-	</div>
+	<div class="overlay"></div> 
 </body>
-</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Max Fojtik</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script> 
+</head>
+<body onscroll="scrollListener()">
+	<div class="header_background">
+		<a onclick="url_update(this);" value="https://www.arduino.cc/" href="javascript:void(0);"><img class="header_img" src="Top/Ardunio.png" style="width: 20%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.java.com/en/" href="javascript:void(0);"><img class="header_img" src="Top/Java.png" style="width: 17%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.raspberrypi.org/" href="javascript:void(0);"><img class="header_img" src="Top/Raspberry.png" style="width: 8%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.osu.edu/" href="javascript:void(0);"><img class="header_img" src="Top/OhioState.png" style="width: 10%;"><img></a>
+		<a onclick="url_update(this);" value="https://www.firstinspires.org/robotics/frc" href="javascript:void(0);"><img class="header_img" src="Top/First.png" style="width: 41%;"><img></a>
+	</div>
+	<div class="navwrapper" id="navwrapper">
+	<div id="main_nav_top"></div>
+	<div class="topnav">
+		<a href="index.html">Home</a>
+		<a href="contact.html">Contact</a>
+		<a href="references.html">References</a>
+		<a class="active" href="projects.html">Projects</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main_nav_bottom"></div>
+	</div>
+	<div class="body" id="bottom">
+		<div class="article">
+		<!--
+		<div id="GIFEN">GIFs disabled</div><button type="button" onclick="toggleG()">Enable</button> 
+		-->
+		<a name="alexalights"></a>
+		<h2>Alexa controlled dorm lights</h2>
+		<p>
+		<h4><a onclick="url_update(this);" value="https://github.com/mdzirbel/Room" href="javascript:void(0);">GitHub Link</a></h4>
+		When my room mate and I started planning our room in the summer of 2018 we decided we wanted to have better lights than the default ones.
+		The end goal was to use a laser to put a point on the ceiling and then have paddles on each end. This would allow us to play pong on it.
+		We got as far as using it as a general lighting system. You can select scenes and change the color. 
+		It runs on a Raspberry Pi and that's why it is written in python.
+		</p>
+		<br>
+		<img src="Lights/WhiteLights.jpg" style="width: 25%; display: block;"><img>
+		<a name="doorlock"></a>
+		<h2>Door Lock</h2>
+		<h4><a onclick="url_update(this);" value="https://github.com/Maxfojtik/Door" href="javascript:void(0);">GitHub Link</a></h4>
+		<p>
+		I found that I didn't like carrying around a key to my dorm room all day. So I created a system to lock and unlock my door with my phone.
+		[More info to come]
+		</p>
+		<a name="eliteleds"></a>
+		<h2>Elite Neopixel Integration</h2>
+		<h4><a onclick="url_update(this);" value="https://github.com/Maxfojtik/EliteDangeriousNeopixelIntegration" href="javascript:void(0);">GitHub Link</a></h4>
+		<p>
+		One of my favorite games is Elite Dangerous. I love playing this game and I love LEDs, so I thought I would combine them.
+		[More info to come]
+		</p>
+		</div>
+	</div>
+</body>
+</html>
