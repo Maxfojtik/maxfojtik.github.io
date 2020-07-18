@@ -31,8 +31,8 @@ p{
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #00838F;
 	-webkit-transform:scaleX(0);
+5986bd	background: #5986bd;
 	transform:scaleX(0);
 	-webkit-transform-origin:right center;
 	transform-origin:right center;
@@ -43,7 +43,7 @@ p{
 }
 
 .nav:hover {
-	color: #00c2d4
+	color: #6ca3e6
 }
 
 .nav:hover:after {
@@ -53,21 +53,21 @@ p{
 	transform: scaleX(1);
 	-webkit-transform-origin: left center;
 	transform-origin: left center;
-	background: #00c2d4
+	background: #6ca3e6
 }
 
 a.about {
 	font-weight: bold;
 	font-size: 1.7em;
 	text-decoration: none;
-	color: #00838F;
+	color: #5986bd;
 }
 a {
 	position:relative;
 	font-weight: bold;
 	font-size: 3em;
 	text-decoration: none;
-	color: #00838F;
+	color: #5986bd;
 }
 .bgvideo {
 	min-width: 100%;
