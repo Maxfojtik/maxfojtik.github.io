@@ -1,6 +1,6 @@
 
 // var wsUri = "ws://localhost:12389"; // Localhost
-var wsUri = "ws://192.168.1.42:8765"; // Max's
+var wsUri = "ws://74.140.3.27:8765"; // Max's
 function ordinal_suffix_of(i) {
     var j = i % 10,
         k = i % 100;
