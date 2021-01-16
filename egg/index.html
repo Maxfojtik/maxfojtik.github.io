@@ -1,54 +1,39 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-		<meta content="utf-8" http-equiv="encoding">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
-		<script src="backend.js"></script>
-		<script src="index.js"></script>
-		<script src="keys.js"></script>
-		<link rel="stylesheet" href="site.css">
-		<link rel="stylesheet" href="header.css">
-		<link rel="icon" href="Images/icon.png">
-		<title>Easter Egg</title>
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>full screen iframe</title> 
+		<style type="text/css"> 
+			html { 
+				overflow: auto; 
+			} 
+			  
+			html, 
+			body, 
+			div, 
+			iframe { 
+				margin: 0px; 
+				padding: 0px; 
+				height: 100%; 
+				border: none; 
+			} 
+			  
+			iframe { 
+				display: block; 
+				width: 100%; 
+				border: none; 
+				overflow-y: auto; 
+				overflow-x: hidden; 
+			} 
+		</style> 
 	</head>
-	<div id="header">
-		<img id="header-img" class="column left" src="Logo.png" title="Easter Egg" onclick="ee(be16bf87);">
-		<div id="title-text"><span title="Easter Egg" onclick = "ee(def6c239);">Easter Eggs</span> found</div>
-		<div id="progress-bar">
-			<div id="progress-bar-completed"></div>
-		</div>
-		<h1 id="progress-label">1/10</h1>
-	</div>	
-	<body id="background">
-		<div id="content">
-			<p>The easter egg hunt for computer scientists and engineers. (you will not be able to get most of the easter eggs without the tools of a computer)</p>
-			<button onclick="mode('blink');" class="access0">Blink</button>
-			<button onclick="mode('blinkPretty');" class="access1" style="display: none">Blink Pretty</button>
-			<button onclick="mode('wave');" class="access2" style="display: none">Wave</button>
-			<button onclick="mode('circle');" class="access3" style="display: none">Circle</button>
-			<button onclick="mode('breathe');" class="access4" style="display: none">Breathe</button>
-			<button onclick="mode('random');" class="access5" style="display: none">Random Lights</button>
-			<button onclick="mode('rainbow');" class="access6" style="display: none">Rainbow</button>
-			<button onclick="mode('cwave');" class="access7" style="display: none">Continuous Waves</button>
-			<button onclick="mode('ground');" class="access8" style="display: none">Go Round</button>
-			<button onclick="mode('fire');" class="access9" style="display: none">Fire</button>
-			<br>
-			<button onclick="setColor('white');" class="access0">Set Color White</button>
-			<button onclick="setColor('blue');" class="access1" style="display: none">Set Color Blue</button>
-			<button onclick="setColor('red');" class="access2" style="display: none">Set Color Red</button>
-			<button onclick="setColor('green');" class="access3" style="display: none">Set Color Green</button>
-			<button onclick="setColor('yellow');" class="access4" style="display: none">Set Color Yellow</button>
-			<button onclick="setColor('orange');" class="access5" style="display: none">Set Color Orange</button>
-			<button onclick="setColor('magenta');" class="access6" style="display: none">Set Color Magenta</button>
-			<button onclick="setColor('lightBlue');" class="access8" style="display: none">Set Color Light Blue</button>
-			<button onclick="setColor('aqua');" class="access7" style="display: none">Set Color Aqua</button>
-			<button onclick="setColor('purple');" class="access9" style="display: none">Set Color Purple</button>
-			<br>
-			<p class="userNum"></p>
-		</div>
-	</body>
-	</div>
-</html>
+	<body> 
+		<iframe src="http://74.140.3.27:8764/"
+				frameborder="0" 
+				marginheight="0" 
+				marginwidth="0" 
+				width="100%" 
+				height="100%" 
+				scrolling="auto"> 
+	  </iframe>
+	</body> 
+</html> 
